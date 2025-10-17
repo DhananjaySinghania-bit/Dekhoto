@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Software Example</title>
+</head>
+<body>
+    <h1>Hello Dhananjay ji!</h1>
+    
+    <!-- Button -->
+    <button onclick="showMessage()">Click Me</button>
+    
+    <!-- Message area -->
+    <p id="message"></p>
+
+    <script>
+        // Function to show message
+        function showMessage() {
+            document.getElementById('message').innerText = "Yeh message aapne button dabake dekha!";
+        }
+    </script>
+</body>
+</html>
